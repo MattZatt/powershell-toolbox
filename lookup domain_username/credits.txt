@@ -1,0 +1,1 @@
+https://4sysops.com/archives/remotely-query-user-profile-information-with-powershell/
