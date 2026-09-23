@@ -27,6 +27,10 @@ function Restart-ServiceByName {
             "PausePending" {
                 Start-Service $name 
             }
+            Default {
+                Write-Host "Unable to determine Status"
+                Write-Host $_.ScriptStackTrace
+            }
         }
     }
     try {
