@@ -38,8 +38,6 @@ function Copy-RemoteFile {
     # Disconnect the network drive
     net use $NetworkDrive /delete
 }
-#net use <network drive> location /user:<username> <password>
-#cd <file path>
+#net use <network drive> location /user:<username> <password>
 #copy-item <file path> -destination #destination path -Recurse if full path
-#when done net use #network drive location /delete
 Copy-RemoteFile
